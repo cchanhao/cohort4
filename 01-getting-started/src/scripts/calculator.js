@@ -1,4 +1,4 @@
-const calcFunctions = {
+const calcFunction = {
 
     addNumbers: (num1, num2) => {
         return num1 + num2;
@@ -17,4 +17,4 @@ const calcFunctions = {
     },
 };
 
-export default calcFunctions;
+export default calcFunction;
