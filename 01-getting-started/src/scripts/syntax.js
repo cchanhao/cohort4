@@ -60,15 +60,15 @@ const functions = {
         return arr;
     },
     // for/in
-    inLoop: (person) => {
-        let person = {firstName: "Bruce", lastName: "Wayne", age: 30};
+    // inLoop: (person) => {
+        // let person = {firstName: "Bruce", lastName: "Wayne", age: 30};
         
-        let text = "";
-        let i;
-        for (i in person) {
-            text += person[i] + "";
-        }
-    },
+        // let text = "";
+        // let i;
+        // for (i in person) {
+        //     text += person[i] + "";
+        // }
+    // },
     // while
     // do while
     // forEach (with array and function)

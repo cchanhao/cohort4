@@ -18,16 +18,22 @@ let divide = document.getElementById("divide");
 let result = document.getElementById("result");
 
 add.addEventListener("click", function () {
-   console.log("add");
-    
+    //    console.log("add");
+    result.value = calcFunction.addNumbers(num1.value, num2.value);
+
 });
 subtract.addEventListener("click", function () {
-console.log("test subtract")
+    //    console.log("test subtract");
+    result.value = calcFunction.subtractNumbers(num1.value, num2.value);
 });
+
 multiply.addEventListener("click", function () {
-    console.log("test multiply")
+    // console.log("test multiply");
+    result.value = calcFunction.multiplyNumbers(num1.value, num2.value);
 });
+
 divide.addEventListener("click", function () {
-console.log("test divide")
+    //      console.log("test divide");
+    result.value = calcFunction.divideNumbers(num1.value, num2.value);
 });
 

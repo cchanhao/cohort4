@@ -50,6 +50,6 @@ test("loop through block", () => {
     expect(functions.forLoop([1, 2, 3, 4, 5], 1)).toEqual([2, 3, 4, 5, 6]);
     expect(functions.forLoop([10, 20, 30, 40, 50], 10)).toEqual([20, 30, 40, 50, 60]);
 });
-test("get person info", () => {
-    expect(functions.inLoop()).toBe("Bruce", "Wayne", 30);
-})
+// test("get person info", () => {
+//     expect(functions.inLoop()).toBe("Bruce", "Wayne", 30);
+// })

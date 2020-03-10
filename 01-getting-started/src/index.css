@@ -76,3 +76,7 @@ html {
         min-height: 400px;
     }
 }
+
+#calc {
+    text-align: center;
+}
